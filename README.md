@@ -1,3 +1,47 @@
+<h2>
+  Requirements
+</h2>
+
+```
+docker v19.03.6
+docker-compose v1.21.0
+
+node v13.09.0
+npm v6.13.7
+ts-node v8.6.2
+nest v6.14.1
+```
+<p>Free acount on the portal belowe</p>
+
+```
+http://www.omdbapi.com/
+```
+
+<h2>
+DataBase
+</h2>
+<p>First of all, we need start MongoDB.</p>
+<p>For this purpose open fevorite terminal in root project directory, then go to .docker dir, just typing</p>
+
+```
+cd .docker
+```
+
+Then start docker-compose from .yml configure file.
+
+```
+docker-compose up
+```
+
+<h2>
+Environment
+</h2>
+<p>Create .env file in root project directory.</p>
+<p> Set environment OMDBAPI_APIKEY variable by assigning the value taken from </p>
+```
+http://www.omdbapi.com/
+```
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
